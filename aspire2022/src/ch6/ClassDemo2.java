@@ -50,7 +50,7 @@ public class ClassDemo2 {
 		}
 	}
 	
-	void met5(int... aa) {//var args
+	void met5(int... aa) {//var args - PERIOD SYMBOL
 		for(int i=0;i<aa.length;i++) {
 			System.out.println(aa[i]);
 		}
