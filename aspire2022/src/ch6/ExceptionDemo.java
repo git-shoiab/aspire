@@ -10,15 +10,18 @@ public class ExceptionDemo {
 		}catch(ArithmeticException e) {
 			System.out.println("please enter a value other than zero...");
 		}
-//		catch(ArrayIndexOutOfBoundsException ae) {
-//			System.out.println("you need to enter a value in the command line...");
-//		}
+		catch(ArrayIndexOutOfBoundsException ae) {
+			System.out.println("you need to enter a value in the command line...");
+		}
 		catch(NumberFormatException ne) {
 			System.out.println("please enter a valid number other than zero...");
 		}
-//		catch(Exception ee) {
-//			System.out.println("unknown exceptions....come here...");
-//		}
+		catch(Exception ee) {
+			System.out.println("unknown exceptions....come here...");
+		}
+		finally {
+			System.out.println("finally called...");
+		}
 		System.out.println("After exception");
 	}
 }
