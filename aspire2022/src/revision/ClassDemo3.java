@@ -13,7 +13,7 @@ public class ClassDemo3 {
 //			copya[i]=a[i];
 //		}
 		System.arraycopy(a,0,copya,0,a.length);
-		new PassArray().acceptArray(copya);
+		new PassArray().acceptArray(a);
 		System.out.println("After Passing...:"+a[0]);
 	}
 }
