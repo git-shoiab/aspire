@@ -1,5 +1,6 @@
 package ch6;
 //https://fluvid.com/videos/detail/37jwQhO3RoUy1G-Eg#.YigI3fhZZ3A.link
+
 //this program demonstrates how to ensure that program 
 //runs without getting terminated abruptly
 public class ExceptionDemo {
