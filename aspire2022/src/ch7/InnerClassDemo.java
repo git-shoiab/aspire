@@ -17,6 +17,7 @@ abstract class Cola{
 }
 
 class Kalimark{
+	private int n=100;
 	static class CampaCola extends Cola{
 		@Override
 		public void makeCola() {
@@ -26,7 +27,7 @@ class Kalimark{
 	class Campa extends Cola{
 		@Override
 		public void makeCola() {
-			System.out.println("non static make cola called....");	
+			System.out.println("non static make cola called...."+n);	
 		}
 	}
 	
