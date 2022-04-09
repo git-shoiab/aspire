@@ -3,14 +3,14 @@ package annogenericspack;
 public class GenericsDemo {
 	public static void main(String[] args) {
 		PaintBrush<Water> brush=WaterContainer.getBrush();
-		brush.setItem(new Water());
+	//	brush.setItem(new Water());
 				
 		Water water=(Water)brush.getItem();
 		
 		System.out.println(water);
 		
 		PaintBrush<Paint> brush2=PaintContainer.getBrush();
-		brush2.setItem(new RedPaint());
+		//brush2.setItem(new RedPaint());
 	}
 }
 
